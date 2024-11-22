@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ffd930b9;
+    text-align: center;
+    position: sticky;
+    top:0;
+}
+body{
+    background-color: #fcecda;
+}
+header>img{
+    width: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/*Classe Biblitoteca Google Icons*/
+.material-symbols-outlined {
+    font-size: 3rem;
+}
+#iconeHam, #iconeClose{
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+}
+#iconeClose{
+display: none;
+}
+#menu a{
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-family: "Sofia", cursive;
+    color: #471e1e;
+    font-size: 1.4rem;
+    background-color: #ffd930;
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu li{
+    margin: 1px;
+}
+#menu{
+    display: none;
+}
+.foto-home{
+    max-width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+section>h1{
+    font-family: "Sofia", cursive;
+    color: #471e1e;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 32px 24px 24px 24px ;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.texto-principal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #471e1e;
+    font-size: 1.2rem;
+    padding: 0 24px 24px 24px;
+}
+#cards{
+    padding: 32px 24px 24px 24px ;
+}
+#cards img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+#cards article{
+    background-color: #ffd930;
+    padding: 24px;
+    border-radius: 15px;
+    margin-bottom: 32px;
+}
+#cards p{
+    margin-top: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #471e1e;
+    font-size: 1.2rem;
+}
+
+#cards h1{
+    font-family: "Sofia", cursive;
+    color: #471e1e;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #ffd930;
+    padding: 24px;
+}
+footer img{
+    width: 32px;
+    margin-right: 8px;
+}
+footer span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #471e1e;
+    font-size: 1.2rem;
+}
+footer>div{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+/*QUEM SOMOS*/
+
+.foto-texto{
+    padding: 32px 24px;
+}
+
+.foto-texto img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.foto-texto h1{
+    font-family: "Sofia", cursive;
+    color: #471e1e;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.foto-texto p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #471e1e;
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+}
+
+/*MODO DESKTOP (1024PX)*/
+
+@media(min-width: 1024px){
+#cards{
+    display: flex;
+    justify-content: space-between;
+}
+#cards article{
+    max-width: 300px;
+}
+#iconeHam, #iconeClose{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu{
+    display: block;
+    margin-right: 96px;
+}
+#menu ul{
+    display: flex;
+}
+#menu a{
+    background-color: #ffd93000;
+}
+#menu li{
+    margin-left: 48px;
+}
+header img{
+    margin-left: 96px;
+}
+
+/*QUEM SOMOS*/
+.foto-texto{
+    display: flex;
+}
+
+.foto-texto h1{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.foto-texto div{
+    margin-left: 24px
+}
+
+}
